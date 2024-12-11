@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  min-height: 700px;
+}
+
+.header {
+  background-color: #d5aba2;
+  padding: 20px 0px 20px 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+}
+
+.footer {
+  padding: 10px;
+  background-color: #d5aba2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.topheadingCnt {
+  padding: 10px 10px;
+  text-align: center;
+  margin: auto;
+  background-color: #ff0000a6;
+}
+
+.topheadingCnt p {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nav-link {
+  color: black !important;
+  text-decoration: underline !important;
+  font-size: 20px !important;
+  margin-right: 80px;
+}
+
+.home-page-banner {
+  width: 100%;
+  height: 800px;
+}
+
+.courses-cnt {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.each-course {
+  width: 400px;
+  height: 400px;
+}
+
+.my-course {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.total-price {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.courseTitle,
+.courseName {
+  color: red;
+  font-size: 17px;
+  margin: 0px;
+}
+
+.courseName {
+  color: black;
+  margin-left: 10px;
+}
+
+.payBtn {
+  background-color: white;
+  font-size: 20px;
+  padding: 5px 40px;
+  outline: none;
+  border: none;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.startcoursebtn {
+  background-color: white;
+  font-size: 20px;
+  padding: 5px 40px;
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.login-cnt {
+  width: 500px;
+  background-color: gray;
+  border-radius: 10px;
+  padding: 60px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  width: 100px;
+}
+
+.usernameinput,
+.passwordinput {
+  background: white;
+  width: 260px;
+  border-radius: 6px;
+  padding: 3px 0px;
+}
+
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.loginBtn {
+  background-color: green;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 40%;
+  margin: auto;
+  margin-top: 60px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+}
+
+.if-you {
+  color: black;
+  margin: auto;
+}
+
+.signupbtn {
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.login-heading {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-cnt {
+  background-color: gray;
+  padding: 30px 20px;
+  margin-top: 20px;
+}
+
+.about-cnt .text {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.contact-text {
+  margin: 0px;
+  color: red;
+}
+
+.contact-text-1 {
+  margin: 0px;
+}
+
+
+.err-msg{
+  color: red;
+  font-size: 12px;
+}
+
+.image-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-input-label {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.image-input-label:hover {
+  background-color: #0056b3;
+}
+
+.image-input {
+  display: none;
+}
+
+.image-preview {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-preview img {
+  max-width: 300px;
+  max-height: 300px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.remove-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #a71d2a;
+}
